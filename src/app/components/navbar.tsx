@@ -4,9 +4,9 @@ export default function Navbar() {
       <div className="logo"></div>
     <h2>BROS RECIPES</h2>
     <ul className="list">
-        <a href="/"><li>HOME</li></a>
-        <a href="/aboutus"><li>ABOUT</li></a>
-        <a href="/recipe"><li>RECIPE</li></a>
+        <a href="/" className="navAnchors"><li>HOME</li></a>
+        <a href="/aboutus" className="navAnchors"><li>ABOUT</li></a>
+        <a href="/recipe" className="navAnchors"><li>RECIPE</li></a>
     </ul>
     </div>
     </>
