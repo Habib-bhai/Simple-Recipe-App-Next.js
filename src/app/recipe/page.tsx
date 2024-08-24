@@ -7,7 +7,7 @@ import Navbar from "../components/navbar";
 import "../main.css"
 import "@/src/app/recipe/recipe.css"
 
-export default function recipe(){
+const Recipe: React.FC =()=>{
 
     let [searchQuery, setSearchQuery] = useState<string>("")
     const router = useRouter();
@@ -31,3 +31,5 @@ export default function recipe(){
         </>
     )
 }
+
+export default Recipe
