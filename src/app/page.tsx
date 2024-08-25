@@ -1,10 +1,12 @@
 import "./main.css"
 import Navbar from "./components/navbar"
 import Card from "./components/card"
+import SideBar from "./components/sideBar"
 
 export default function Hello() {
   return ( <>
   <Navbar/>
+  {/* <SideBar styleClass="hide"/> */}
     <h1 className="firstHeading">POPULAR RECIPES</h1>
     <div className="CardParent">
     <Card url="/asset/meatball.png" href="/recipe/popular/meatBall" title="Easy Meat Balls"/>

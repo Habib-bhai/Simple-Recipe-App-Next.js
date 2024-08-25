@@ -5,13 +5,19 @@ body {
     color: white;
 }
 
+
+
+
 .nav {
     padding-left: 5rem;
     display: flex;
     justify-content: left;
     align-items: center;
     position: relative;
+    /* width: 100vw; */
 }
+
+
 
 .navAnchors {
     width: 55px;
@@ -56,11 +62,34 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
+.sideBarToggler {
+    display: none;
+}
+
+
+
+
+
+/* MEDIA QUERIES FOR NAVBAR */
+@media only screen and (max-width: 700px) {
+
+    .sideBarToggler {
+        display: block;
+    }
+ 
+    .hideOnMobile {
+        display: none;
+    }
+
+}
+
+
 .firstHeading {
     font-family: "sans",'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     margin-top: 3.5rem;
     margin-left: 5rem;
+    font-size: 2rem;
     position: relative;
     width: max-content;
 }
@@ -68,6 +97,19 @@ body {
 .aboutUsPara {
     margin-left: 5rem;
     padding: 20px;
+}
+
+  
+
+@media only screen and (min-width: 360px) and (max-width: 500px) {
+    .firstHeading {
+        font-size: 1rem;
+        margin-left: 2rem;
+    }
+
+    .aboutUsPara {
+        margin-left: 2rem;
+    }
 }
 
 .firstHeading::before {

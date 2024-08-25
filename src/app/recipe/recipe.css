@@ -23,6 +23,7 @@
     height: auto;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     position: absolute;
 }
@@ -81,4 +82,19 @@
     width: 1.8rem;
     border-radius: 50%;
     /* background-color: black; */
+}
+
+
+@media only screen and (min-width: 360px) and (max-width: 500px){
+    .recipeParent {
+        top: 10rem;
+    }
+    .recipeHeading {
+        font-size: 1.5rem;
+    }
+    .searchInput {
+        width: 100vw;
+        padding-left: 1rem;
+    }
+
 }

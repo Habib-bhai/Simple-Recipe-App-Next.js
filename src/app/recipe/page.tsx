@@ -4,7 +4,6 @@ import { useState} from "react";
 import { useRouter } from 'next/navigation';
 
 import Navbar from "../components/navbar";
-import "../main.css"
 import "@/src/app/recipe/recipe.css"
 
 const Recipe: React.FC =()=>{
